@@ -1,0 +1,129 @@
+Question1:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my webpage</title>
+</head>
+<body>
+
+    <h1>This is my webpage</h1>
+
+    <h2>Links &amp; Lists</h2>
+    <ol>
+        <li>This link goes to <a href="https://www.google.com">Google</a></li>
+        <li>This link goes to <a href="https://www.youtube.com">YouTube</a></li>
+        <li>This link opens a new tab and goes to <a href="https://www.wikipedia.org" target="_blank">Wikipedia (opens new tab)</a></li>
+    </ol>
+
+    <h2>Text Content</h2>
+    <p>
+        This is a paragraph.<br>
+        This line is still in the same paragraph but on a new line.
+    </p>
+    <p>This is part of a new paragraph.</p>
+
+</body>
+</html>
+
+
+Question 2:
+<form method="POST" action="#">
+    <h2>Registration Form</h2>
+
+    <label for="first-name">First Name *</label>
+    <input type="text" id="first-name" name="first_name" required>
+
+    <label for="last-name">Last Name *</label>
+    <input type="text" id="last-name" name="last_name" required>
+
+    <label for="email">Email *</label>
+    <input type="email" id="email" name="email" required>
+
+    <br><br>
+
+    <fieldset>
+        <legend>Sports you like</legend>
+        <input type="checkbox" id="football" name="sports" value="football">
+        <label for="football">Football</label>
+
+        <input type="checkbox" id="baseball" name="sports" value="baseball">
+        <label for="baseball">Baseball</label>
+
+        <input type="checkbox" id="basketball" name="sports" value="basketball">
+        <label for="basketball">Basketball</label>
+
+        <input type="checkbox" id="soccer" name="sports" value="soccer">
+        <label for="soccer">Soccer</label>
+
+        <input type="checkbox" id="swimming" name="sports" value="swimming">
+        <label for="swimming">Swimming</label>
+
+        <input type="checkbox" id="rugby" name="sports" value="rugby">
+        <label for="rugby">Rugby</label>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Choose your age *</legend>
+        <input type="radio" id="age-18-24" name="age" value="18-24" required>
+        <label for="age-18-24">18-24</label>
+
+        <input type="radio" id="age-25-30" name="age" value="25-30">
+        <label for="age-25-30">25-30</label>
+
+        <input type="radio" id="age-30-35" name="age" value="30-35">
+        <label for="age-30-35">30-35</label>
+
+        <input type="radio" id="age-35-40" name="age" value="35-40">
+        <label for="age-35-40">35-40</label>
+
+        <input type="radio" id="age-40-plus" name="age" value="40+">
+        <label for="age-40-plus">40+</label>
+    </fieldset>
+
+    <br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+
+
+Question 3:
+<table border="1">
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td colspan="3">10</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>12</td>
+        <td colspan="2">13</td>
+        <td colspan="2">14</td>
+    </tr>
+    <tr>
+        <td rowspan="2">15</td>
+        <td rowspan="2">16</td>
+        <td rowspan="2">17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+    </tr>
+</table>
